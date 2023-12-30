@@ -15,11 +15,16 @@ foreach ($arg in $Arguments) {
     $inputPath = Resolve-Path -Path $arg
     $item = Get-Item -Path $inputPath
     $outputPath = Join-Path -Path $item.DirectoryName -ChildPath "$($item.BaseName).pdf"
-    & $chordProPath $arg --output $outputPath
+
+    & $chordProPath $inputPath --output $outputPath
+    $exitCode = $LASTEXITCODE
+    if ($exitCode -ne 0) {
+        throw "Failed to render $inputPath"
+    }
+
     if ($null -eq $previewerPath) {
         & $outputPath
-    }else {
+    } else {
         & $previewerPath $outputPath
-
     }
 }
