@@ -3,11 +3,24 @@
 {composer: Andy Partridge}
 
 {define: Am base-fret 0 frets x 0 2 2 1 0 fingers x x 2 3 1 x}
-{define: Am/F base-fret 0 frets 1 x 2 2 1 0 fingers X x 2 3 1 x}
+{define: Am/F base-fret 0 frets 1 x 2 2 1 0 fingers x x 2 3 1 x}
 {define: Am/G base-fret 0 frets 3 x 2 2 1 0 fingers 4 x 2 3 1 x}
 {define: Am/F# base-fret 0 frets 2 x x 2 1 0 fingers 2 x x 3 1 x}
 
-[Am][Am/F][Am/G][Am/F#]
+{define: C base-fret 0 frets x 3 2 0 1 0 fingers x 3 2 x 1 x}
+{define: C/G# base-fret 0 frets 4 3 2 0 1 0 fingers 4 3 2 x 1 x}
+{define: C/D base-fret 0 frets x x 0 0 1 0 fingers x x x x 1 x}
+{define: C/F# base-fret 0 frets 2 x 2 0 1 0 fingers 2 x 3 x 1 x}
+
+{chord: Am}
+{chord: Am/F}
+{chord: Am/G}
+{chord: Am/F#}
+
+{chord: C}
+{chord: C/G#}
+{chord: C/D}
+{chord: C/F#}
 
 # Dear God, hope you got the letter and
 # I pray you can make it better down here
