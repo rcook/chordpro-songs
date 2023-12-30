@@ -1,5 +1,14 @@
 {
   "diagrams": {
     "show": "none"
+  },
+  "pdf": {
+    "diagrams": {
+      "height": 15,
+      "width": 15
+    }
+  },
+  "settings" : {
+    "truesf" : true
   }
 }
