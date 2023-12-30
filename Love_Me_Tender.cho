@@ -1,5 +1,7 @@
 {title: Love me tender}
 {subtitle: Presley/Mateon}
+{define: E5 base-fret 7 frets 0 1 3 3 0 0 fingers x 1 3 2 x x }
+{define: Dm6 base-fret 0 frets x x 0 2 0 1 fingers x x x 2 x 1 }
 
 [G]Love me tender [A7]love me sweet
 [D7]Never let mo [C]go
