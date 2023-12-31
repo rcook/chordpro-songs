@@ -616,6 +616,10 @@
         "size": 12,
         "frame": 1
       },
+      "diagram": {
+        "name": "Helvetica",
+        "size": 14
+      },
       "tab": {
         "name": "Courier",
         "size": 10
