@@ -11,9 +11,9 @@
     "formats": {
       "title": {
         "subtitle": [
-          "As performed by %{artist}",
+          "",
           "%{subtitle}",
-          "Words and music by %{composer}"
+          "As performed by %{artist}"
         ]
       }
     },
