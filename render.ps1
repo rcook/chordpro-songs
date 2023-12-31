@@ -1,6 +1,8 @@
 #Requires -Version 5
 [CmdletBinding()]
 param(
+    [Parameter(Mandatory = $false)]
+    [string] $ConfigPath,
     [Parameter(Mandatory = $false, Position = 0, ValueFromRemainingArguments = $true)]
     [object[]] $Arguments
 )
@@ -26,12 +28,14 @@ if (-not $previewerPath) {
     }
 }
 
-$configPath = $null
+if ($ConfigPath) {
+    $ConfigPath = Resolve-Path -Path $ConfigPath
+}
 
-if (-not $configPath) {
+if (-not $ConfigPath) {
     $temp = Join-Path -Path $PSScriptRoot -ChildPath chordpro-big.json
     if (Test-Path -Path $temp) {
-        $configPath = Resolve-Path -Path $temp
+        $ConfigPath = Resolve-Path -Path $temp
     }
 }
 
@@ -40,10 +44,10 @@ foreach ($arg in $Arguments) {
     $item = Get-Item -Path $inputPath
     $outputPath = Join-Path -Path $item.DirectoryName -ChildPath "$($item.BaseName).pdf"
 
-    if (-not $configPath) {
+    if (-not $ConfigPath) {
         & $chordProPath $inputPath --output $outputPath
     } else {
-        & $chordProPath $inputPath --config $configPath --output $outputPath
+        & $chordProPath $inputPath --config $ConfigPath --output $outputPath
     }
     $exitCode = $LASTEXITCODE
     if ($exitCode -ne 0) {
