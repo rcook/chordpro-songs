@@ -15,6 +15,9 @@
           "Words and music by %{composer}"
         ]
       }
+    },
+    "spacing": {
+      "diagramchords": 2
     }
   },
   "settings": {
