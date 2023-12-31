@@ -23,7 +23,7 @@
 
 {define: E/B base-fret 0 frets x 2 2 1 0 0 fingers x 2 3 1 x x}
 {define: Dm base-fret 5 frets x 1 3 3 2 1 fingers x 1 2 3 4 1}
-{define: G/B_2 base-fret 5 frets 3 x 1 3 0 x fingers 2 x 1 3 x x display "G/B [2]"}
+{define: G/B base-fret 5 frets 3 x 1 3 0 x fingers 2 x 1 3 x x}
 {define: A base-fret 5 frets 1 3 3 2 1 1 fingers 1 3 4 2 1 1}
 {define: Dsus2 base-fret 0 frets x x 0 2 3 0 fingers x x x 2 3 x}
 {define: Dsus2/Bb base-fret 0 frets x 1 0 2 3 0 fingers x 1 x 2 3 x}
@@ -96,18 +96,18 @@ I [Dm]won't believe in Heaven and Hell
 No [Bb]saints, no sinners, no devil as well
 The [Dm]pearly gates, no thorny crown
 You're [Bb]always letting us humans down
-The [G/B_2]wars you bring, the babes you drown
+The [G/B]wars you bring, the babes you drown
 Those [Bb]lost at sea and never found
 {end_of_verse}
 
 {start_of_verse: Verse 5}
 And [Dm]it's the same the whole world round
 The [Bb]hurt I see helps to compound
-That [G/B_2]Father, Son and Holy Ghost
+That [G/B]Father, Son and Holy Ghost
 It's [Bb]just somebody's unholy hoax
 And [Dm]if you're up there, you'd perceive
 That [Bb]my heart's here upon my sleeve
-But [G/B_2]there's one thing I don't believe in [A]
+But [G/B]there's one thing I don't believe in [A]
 {end_of_verse}
 
 {start_of_verse: Coda}
