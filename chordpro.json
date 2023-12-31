@@ -9,11 +9,15 @@
     },
     "formats": {
       "title": {
-        "subtitle": ["As performed by %{artist}", "%{subtitle}", "Words and music by %{composer}"]
+        "subtitle": [
+          "As performed by %{artist}",
+          "%{subtitle}",
+          "Words and music by %{composer}"
+        ]
       }
     }
   },
-  "settings" : {
-    "truesf" : true
+  "settings": {
+    "truesf": true
   }
 }
