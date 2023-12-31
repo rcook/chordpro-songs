@@ -325,7 +325,7 @@
           "title"  : 1.2,
           "lyrics" : 1.2,
           "chords" : 1.2,
-          "diagramchords" : 1.2,
+          "diagramchords" : 1.5,
           "grid"   : 1.2,
           "tab"    : 1.0,
           "toc"    : 1.4,
@@ -391,13 +391,13 @@
       // or "below" the last song line.
       "diagrams" : {
           "show"     :  "top",
-          "width"    :  6,      // width of a cell
-          "height"   :  6,      // height of a cell
+          "width"    :  12,      // width of a cell
+          "height"   :  16,      // height of a cell
           "vcells"   :  4,      // vertical cells
           "linewidth" : 0.1,    // fraction of cell width
           "nutwidth" :  5,      // width (in linewidth) of the top nut
           "hspace"   :  3.95,   // fraction of width
-          "vspace"   :  3,      // fraction of height
+          "vspace"   :  0.75,      // fraction of height
           "dotsize"  :  0.8,    // fraction of a cell
           "barwidth" :  0.8,    // fraction of a dot
           "fingers"  :  true,   // show fingering if available (or "below")
