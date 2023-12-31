@@ -8,8 +8,24 @@ param(
 Set-StrictMode -Version Latest
 $ErrorActionPreference = 'Stop'
 
+$previewerPath = $null
+
+if (-not $previewerPath) {
+    $temp = (Join-Path -Path $env:ProgramFiles -ChildPath Google\Chrome\Application\chrome.exe)
+    if (Test-Path -Path $temp) {
+        $previewerPath = Resolve-Path -Path $temp
+    }
+}
+
+if (-not $previewerPath) {
+    $temp = (Join-Path -Path ${env:ProgramFiles(x86)} -ChildPath Google\Chrome\Application\chrome.exe)
+    if (Test-Path -Path $temp) {
+        $previewerPath = Resolve-Path -Path $temp
+    }
+}
+
 $chordProPath = Resolve-Path -Path (Join-Path -Path $env:ProgramFiles -ChildPath ChordPro.ORG\ChordPro\chordpro.exe)
-$previewerPath = Resolve-Path -Path (Join-Path -Path $env:ProgramFiles -ChildPath Google\Chrome\Application\chrome.exe)
+
 $configPath = Resolve-Path -Path (Join-Path -Path $PSScriptRoot -ChildPath chordpro.json)
 
 foreach ($arg in $Arguments) {
