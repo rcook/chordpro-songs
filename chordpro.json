@@ -5,6 +5,7 @@
   "pdf": {
     "diagrams": {
       "height": 20,
+      "vspace": 0.75,
       "width": 16
     },
     "formats": {
