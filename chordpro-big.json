@@ -57,7 +57,7 @@
       "choruslabels" : true,
       // Substitute Unicode sharp/flats in chord names.
       // Will fallback to ChordProSymbols the font doesn't have the glyphs.
-      "truesf" : false,
+      "truesf" : true,
       // Amount of indent for wrapped lines. Actual indent is the stringwidth.
       "wrapindent" : "x",
       // Flow text. Do not use.
@@ -390,7 +390,7 @@
       // "top", "bottom" or "right" side of the first page,
       // or "below" the last song line.
       "diagrams" : {
-          "show"     :  "bottom",
+          "show"     :  "top",
           "width"    :  6,      // width of a cell
           "height"   :  6,      // height of a cell
           "vcells"   :  4,      // vertical cells
