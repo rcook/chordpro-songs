@@ -65,18 +65,18 @@ I can't believe in you
 {end_of_chorus}
 
 {start_of_bridge: Bridge}
-Did you make disease
-And the diamond blue?
-Did you make mankind
-After we made you?
-And the devil too
+[Fmaj7]Did you make disease
+And [C]the diamond blue?
+[Fmaj7]Did you make mankind
+[E-7/D]After we [A7/C#]made [C]you? [Caug] [E/B] [Am] [Am/F] [Am/G]
+[Am/F#]And the [Am]devil too [Am/F] [Am/G] [Am/F#]
 {end_of_bridge}
 
+| Am . Am/F . | Am/G . Am/F# . | %% |.
+
 {start_of_grid: Instrumental}
-   C    C/G#   D7sus2  D9/F#    C   C/G#    D7sus2 D9/F#
-|  /  /  /  / |  /  /  /  /  |  /  /  /  / |  /  /  /  / |
-   D    D/C       Bb    E7
-|  /  /  /  /  |  /  /  /  /  |
+| C . C/G# . | C/D . C/F# . | %% |
+| D_1 . D/C . | Bb . E7 . |.
 {end_of_grid}
 
 {start_of_verse: Verse 3}
@@ -85,81 +85,35 @@ Your name is on a lot of quotes in this book
 And us crazy humans wrote it, you should take a look
 And all the people that you made in your image
 Still believing that junk is true
-Well, I know it ain't, so do you
+Well, I know it ain't, so do [Am]you [Am/F]
 {end_of_verse}
 
 {start_of_chorus: Refrain}
-Dear God
-I can't believe in
-I don't believe in
+[Am/G]Dear [Am/F#]God
+I can't be[Am][Am/F]lieve [Am/G]in
+I don't be[Am][Am/F][Am/G]lieve in
 {end_of_chorus}
 
 {start_of_verse: Verse 4}
-I won't believe in Heaven and Hell
-No saints, no sinners, no devil as well
-The pearly gates, no thorny crown
-You're always letting us humans down
-The wars you bring, the babes you drown
-Those lost at sea and never found
+[Dm]I won't believe in Heaven and Hell
+[Bb]No saints, no sinners, no devil as well
+[Dm]The pearly gates, no thorny crown
+[Bb]You're always letting us humans down
+[G/B_2]The wars you bring, the babes you drown
+[Bb]Those lost at sea and never found
 {end_of_verse}
 
 {start_of_verse: Verse 5}
-And it's the same the whole world round
-The hurt I see helps to compound
-That Father, Son and Holy Ghost
-It's just somebody's unholy hoax
-And if you're up there, you'd perceive
-That my heart's here upon my sleeve
-But there's one thing I don't believe in
+[Dm]And it's the same the whole world round
+[Bb]The hurt I see helps to compound
+[G/B_2]That Father, Son and Holy Ghost
+[Bb]It's just somebody's unholy hoax
+[Dm]And if you're up there, you'd perceive
+[Bb]That my heart's here upon my sleeve
+[G/B_2]But there's one thing I don't believe [A]in
 {end_of_verse}
 
 {start_of_verse: Coda}
-It's you
-Dear God
+[Dsus2]It's you [Dsus2/Bb] [Dsus2/C] [Dsus2/F] [Dsus2/G] [Dsus2/E]
+Dear [D_2]God
 {end_of_verse}
-
-#{chord: C}
-#{chord: C/G#}
-#{chord: C/D}
-#{chord: C/F#}
-
-#{chord: D_1}
-#{chord: D/C}
-#{chord: Bb}
-#{chord: E7}
-
-# Chorus
-
-#{chord: Fmaj7}
-#{chord: C}
-#{chord: G/B_1}
-#{chord: C}
-#{chord: G/B_1}
-
-#{chord: Fmaj7}
-#{chord: E-7/D}
-#{chord: A7/C#}
-#{chord: C}
-
-#{chord: Caug}
-#{chord: E/B}
-
-# Bridge
-
-#{chord: Dm}
-#{chord: Bb}
-
-#{chord: G/B_2}
-#{chord: Bb}
-
-#{chord: A}
-
-# Outro
-
-#{chord: Dsus2}
-#{chord: Dsus2/Bb}
-#{chord: Dsus2/C}
-#{chord: Dsus2/F}
-#{chord: Dsus2/G}
-#{chord: Dsus2/E}
-#{chord: D_2}
