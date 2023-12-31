@@ -1,4 +1,7 @@
 {
+  "files.associations": {
+    "*.json": "jsonc"
+  },
   "files.eol": "\n",
   "files.exclude": {
     "**/.vscode/": true,
