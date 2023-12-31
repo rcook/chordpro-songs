@@ -20,6 +20,8 @@
 {define: Fmaj7 base-fret 0 frets x 3 3 2 1 0 fingers x 3 4 2 1 x}
 {define: G/B base-fret 0 frets x 2 0 0 0 3 fingers x 2 x x x 3}
 
+# Verse
+
 {chord: Am}
 {chord: Am/F}
 {chord: Am/G}
@@ -35,9 +37,39 @@
 {chord: Bb}
 {chord: E7}
 
+# Chorus
+
 {chord: Fmaj7}
 {chord: C}
 {chord: G/B}
+{chord: C}
+{chord: G/B}
+
+#{chord: Fmaj7}
+#{chord: E7/D}
+#{chord: A7/C#}
+#{chord: C}
+
+#{chord: Caug}
+#{chord: E/B}
+
+# Bridge
+
+#{chord: Dm}
+#{chord: Bb}
+
+#{chord: G/B}
+#{chord: Bb}
+
+# Outro
+
+#{chord: Dsus2}
+#{chord: Dsus2/Bb}
+
+#{chord: Dsus2/G}
+#{chord: Dsus2/E}
+
+#{chord: D}
 
 # Dear God, hope you got the letter and
 # I pray you can make it better down here
