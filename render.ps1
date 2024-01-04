@@ -39,16 +39,22 @@ if (-not $ConfigPath) {
     }
 }
 
+$commonArgs = @('--strict')
+
 foreach ($arg in $Arguments) {
     $inputPath = Resolve-Path -Path $arg
     $item = Get-Item -Path $inputPath
     $outputPath = Join-Path -Path $item.DirectoryName -ChildPath "$($item.BaseName).pdf"
 
-    if (-not $ConfigPath) {
-        & $chordProPath $inputPath --output $outputPath
-    } else {
-        & $chordProPath $inputPath --config $ConfigPath --output $outputPath
+    $allArgs = @()
+    $allArgs += $commonArgs
+    $allArgs += @($inputPath)
+    if ($ConfigPath) {
+        $allArgs += @('--config', $ConfigPath)
     }
+    $allArgs += @('--output', $outputPath)
+
+    & $chordProPath $allArgs
     $exitCode = $LASTEXITCODE
     if ($exitCode -ne 0) {
         throw "Failed to render $inputPath"
